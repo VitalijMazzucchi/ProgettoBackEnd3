@@ -2,10 +2,10 @@ package com.epicode.service;
 
 import java.util.List;
 
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 import com.epicode.service.dao.LandDao;
 
-public class LandService {
+public class LendService {
 	LandDao dao = new LandDao();
 
 	public void insert(Lend u) {

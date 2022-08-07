@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
 import com.epicode.jpautil.JpaUtil;
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 import com.epicode.user.User;
 
 public class UsersDao {

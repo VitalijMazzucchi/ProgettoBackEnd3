@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 
 @Entity
 @NamedQuery(name = "Select.lands", query = "SELECT l FROM Lend l WHERE l.user.numberCard =:numberCard AND l.dateRefund is NULL")

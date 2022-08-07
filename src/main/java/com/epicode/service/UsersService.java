@@ -2,7 +2,7 @@ package com.epicode.service;
 
 import java.util.List;
 
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 import com.epicode.service.dao.UsersDao;
 import com.epicode.user.User;
 

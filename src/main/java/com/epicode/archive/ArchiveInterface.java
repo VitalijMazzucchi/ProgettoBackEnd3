@@ -2,7 +2,7 @@ package com.epicode.archive;
 
 import java.util.List;
 
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 import com.epicode.publication.Book;
 import com.epicode.publication.PublicationAbstract;
 

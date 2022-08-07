@@ -3,11 +3,11 @@ package com.epicode.archive;
 import java.time.LocalDate;
 import java.util.List;
 
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 import com.epicode.publication.Book;
 import com.epicode.publication.Magazine;
 import com.epicode.publication.Periodicity;
-import com.epicode.service.LandService;
+import com.epicode.service.LendService;
 import com.epicode.service.UsersService;
 import com.epicode.user.User;
 
@@ -16,7 +16,7 @@ public class Main {
 	public static void main(String[] args) {
 		Archive ar = new Archive();
 		UsersService us = new UsersService();
-		LandService l = new LandService();
+		LendService l = new LendService();
 
 		// Magazine gossip = new Magazine("0", "Gossip", 2022, 100,
 		// Periodicity.MONTHLY);

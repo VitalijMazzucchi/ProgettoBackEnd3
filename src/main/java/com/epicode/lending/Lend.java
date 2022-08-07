@@ -1,4 +1,4 @@
-package com.epicode.landing;
+package com.epicode.lending;
 
 import java.time.LocalDate;
 

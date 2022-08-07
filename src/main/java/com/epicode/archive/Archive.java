@@ -6,15 +6,15 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.epicode.landing.Lend;
+import com.epicode.lending.Lend;
 import com.epicode.publication.Book;
 import com.epicode.publication.PublicationAbstract;
-import com.epicode.service.LandService;
+import com.epicode.service.LendService;
 import com.epicode.service.PublicationsService;
 import com.epicode.service.UsersService;
 
 public class Archive implements ArchiveInterface {
-	private LandService is = new LandService();
+	private LendService is = new LendService();
 	private PublicationsService ps = new PublicationsService();
 	private UsersService us = new UsersService();
 	private Logger log = LoggerFactory.getLogger(Archive.class);
